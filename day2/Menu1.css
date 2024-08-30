@@ -1,0 +1,26 @@
+.table{
+    background-image: linear-gradient(red,yellow);
+    font-size: 22px;
+}
+.bod1{
+    
+    border-width:medium;
+    border-color: black;
+    border-style:dotted;
+}
+.bod1{
+    animation: rotate 10s;
+};
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.container{
+    padding: 10px;
+    background-image: linear-gradient(aqua,red,aqua);
+}
+#footer{
+    
+    background-color: black;
+    color: white;
+}
