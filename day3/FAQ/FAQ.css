@@ -1,0 +1,52 @@
+#arrow,#arrow_2,#arrow_3 {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 23%;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 17px solid black;
+    cursor: pointer;
+    transition: transform 0.4s ease, border-color 0.3s ease;
+    position: absolute;
+    right: 0;
+}
+
+.arrow.rotate,.arrow_2.rotate,.arrow_3.rotate{
+    transform: rotate(90deg); 
+}  
+
+#toggle_1,#toggle_2,#toggle_3{
+    font-size: 5vw;
+    display:none;
+    color: black;
+}
+  
+
+#toggle_1,#toggle_2,#toggle_3.show{
+    display:block;
+}
+
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+.style{
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 5%;
+    width: 60vw;
+    height:100%;
+    background-color: antiquewhite;
+    border: 1px groove black;
+    border-radius:10px
+}
+
+#line{
+border:1.5px solid black;
+margin:9px;
+}
