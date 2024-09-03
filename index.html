@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body >
+    <header style="font-size: 10vb;" align="center">Calculator</header>
+    <span class="flex" >
+    <div class="div"><input type="text" id="display" placeholder="Enter Your Expression" autocomplete="off"></div>
+    <div class="container">
+        <div class="grid-item"><input type="button" value="AC" class="button" onclick="clearDisplay()"></div>
+        <div class="grid-item"><input type="button" value="X" class="button" onclick="backspace()"></div>
+        <div class="grid-item"><input type="button" value="%" class="button" onclick="appendvalue('%')"></div>
+
+        <div class="grid-item"><input type="button" value="/" class="button" onclick="appendvalue('/')"></div>
+        <div class="grid-item"><input type="button" value="1" class="button" onclick="appendvalue('1')"></div>
+        <div class="grid-item"><input type="button" value="2" class="button" onclick="appendvalue('2')"></div>
+        <div class="grid-item"><input type="button" value="3" class="button" onclick="appendvalue('3')"></div>
+        <div class="grid-item"><input type="button" value="*" class="button" onclick="appendvalue('*')"></div>
+
+        <div class="grid-item"><input type="button" value="4" class="button" onclick="appendvalue('4')"></div>
+        <div class="grid-item"><input type="button" value="5" class="button" onclick="appendvalue('5')"></div>
+        <div class="grid-item"><input type="button" value="6" class="button" onclick="appendvalue('6')"></div>
+        <div class="grid-item"><input type="button" value="-" class="button" onclick="appendvalue('-')"></div>
+
+        <div class="grid-item"><input type="button" value="7" class="button" onclick="appendvalue('7')"></div>
+        <div class="grid-item"><input type="button" value="8" class="button" onclick="appendvalue('8')"></div>
+        <div class="grid-item"><input type="button" value="9" class="button" onclick="appendvalue('9')"></div>
+        <div class="grid-item"><input type="button" value="+" class="button" onclick="appendvalue('+')"></div>
+
+        <div class="grid-item"><input type="button" value="+/-" class="button" onclick="positive_negative()"></div>
+        <div class="grid-item"><input type="button" value="0" class="button" onclick="appendvalue('0')"></div>
+        <div class="grid-item"><input type="button" value="." class="button" onclick="appendvalue('.')"></div>
+        <div class="grid-item"><input type="submit" value="=" class="button" onclick="calculate()"></div>
+    </div>
+</span>
+
+</body>
+<script src="Calculator.js"></script>
+</html>

@@ -1,0 +1,271 @@
+#logo{
+    text-decoration: none;
+    color: black;
+}
+
+#head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    font-size: 2vw;
+    flex-wrap: wrap;
+}
+
+#logo_name{
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    font-style: normal;
+}
+
+#search{
+    background-color: rgb(252, 248, 248);
+    border: 0.7px groove;
+    height: 40px;
+    width: 52%;
+    box-shadow: 0 1px 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-right: 0;
+}
+
+#search_button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left:64%;
+    cursor: pointer;
+}
+
+#Login,#Cart{
+    border:0.7px groove;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px;
+    font-size:30px;
+    width: 200px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+#Dots{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.card_1{
+    display: none;
+    position: absolute;
+    top: 8.8%;
+    left: 75%;
+    transform: translateX(-50%);
+   padding: 15px;
+   background-color: white;
+   opacity: 95%;
+   border: 1px solid black;
+   border-radius: 5px;
+   z-index: 1;
+   transition: opacity 0.3s ease;
+   font-size: 20px;
+}
+.container_1:hover .card_1{
+display: block;
+}
+
+
+.card_2{
+    display: none;
+    position: absolute;
+    top: 8.8%;
+    left: 90%;
+    transform: translateX(-50%);
+   padding: 15px;
+   background-color: white;
+   opacity: 95%;
+   border: 1px solid black;
+   border-radius: 5px;
+   z-index: 0;
+   transition: opacity 0.3s ease;
+   font-size: 20px;
+   width: 225px;
+}
+.container_2:hover .card_2{
+    display: block;
+}
+
+
+.layer2{
+    display: flex;
+    background-color: white;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.layer2_image{
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+}
+span{
+    font-size: 20px;
+    font-style: normal ;
+}
+
+.layer2{
+    gap: 5px;
+}
+
+
+
+
+
+.layer3{
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Hide overflowing images */
+}
+
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 1 0 100%; /* Each slide takes up 100% of the container width */
+}
+
+.slide img {
+    width: 100%; /* Make sure images fill the container */
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.arrow:hover {
+    font-size: 40px;
+}
+
+
+
+
+.layer4{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    width: 98.5%;
+    padding: 10px;
+}
+
+.best_deal{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.slide-wrapper1{
+    display: flex;
+   
+
+}
+
+.layer4_image_button{
+    border: 0.1px groove black;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.layer4_image_button:hover{
+    font-size: 19px;
+}
+.layer4_image{
+    height: 200px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    width: 100%;
+    padding: 0.5px;
+    background-color: white;
+    column-gap: 8px;
+    row-gap: 5px;
+}
+
+
+#layer5{
+    height: 400px;
+    width:478px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#layer5:hover{
+    border: 3px groove black;
+}
+
+
+
+.Bottom{
+    opacity: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+span{
+    font-size: 19px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+    gap: 35px;
+    background-color: black;
+    color: white;
+}
+
+.foot{
+    text-decoration: none;
+    color: white;
+    opacity: 90%;
+}
+
+.foot:hover{
+    text-decoration: underline;
+}
+
+.opc{
+    opacity: 50%;
+}
