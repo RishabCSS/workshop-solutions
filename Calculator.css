@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns:repeat(4,1fr);
     gap: 1px;
-    max-height: 50vh;
-    width: 40vw;
+    max-height: 52vh;
+    max-width:52vw ;
+    width: 52vw;
     padding: 10px;
     border-color: blue;
     background-color: orangered;
