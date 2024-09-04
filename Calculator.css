@@ -28,8 +28,9 @@
 }
 
 #display{
-    width: 41vw;
+    width: 52vw;
     height: 4vh;
+    max-width:52vw ;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 3px 3px ;
