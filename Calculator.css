@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns:repeat(4,1fr);
     gap: 1px;
-    height: 55vh;
+    max-height: 50vh;
     width: 40vw;
     padding: 10px;
     border-color: blue;
