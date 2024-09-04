@@ -41,9 +41,8 @@
 }
 
 .flex{
-    margin: 2vh;
-    margin-left: 28vw;
-    margin-right: 28vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
     display: flex;
     align-items: center;
     justify-content: center;
