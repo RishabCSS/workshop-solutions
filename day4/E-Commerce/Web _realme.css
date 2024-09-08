@@ -1,0 +1,275 @@
+#logo{
+    text-decoration: none;
+    color: black;
+}
+
+#head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    font-size: 2vw;
+    flex-wrap: wrap;
+}
+
+
+#logo_name_pg2{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    font-style: normal;
+}
+
+#Login_pg2,#Cart_pg2{
+    border:0.7px groove;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px;
+    font-size:30px;
+    width: 200px;
+    background-color: white;
+    z-index: 2;
+}
+
+#Dots_pg2{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    z-index: 0;
+}
+#search{
+    background-color: rgb(252, 248, 248);
+    border: 0.7px groove;
+    height: 40px;
+    width: 52%;
+    box-shadow: 0 1px 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-right: 0;
+}
+
+#search_button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left:64%;
+    cursor: pointer;
+}
+
+
+.card_1{
+    display: none;
+    position: absolute;
+    top: 8.8%;
+    left: 75%;
+    transform: translateX(-50%);
+   padding: 15px;
+   background-color: white;
+   opacity: 95%;
+   border: 1px solid black;
+   border-radius: 5px;
+   z-index: 1;
+   transition: opacity 0.3s ease;
+   font-size: 20px;
+}
+.container_1:hover .card_1{
+display: block;
+}
+
+
+.card_2{
+    display: none;
+    position: absolute;
+    top: 8.8%;
+    left: 90%;
+    transform: translateX(-50%);
+   padding: 15px;
+   background-color: white;
+   opacity: 95%;
+   border: 1px solid black;
+   border-radius: 5px;
+   z-index: 1;
+   transition: opacity 0.3s ease;
+   font-size: 20px;
+   width: 225px;
+}
+.container_2:hover .card_2{
+    display: block;
+}
+
+
+.Bottom{
+    opacity: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+span{
+    font-size: 19px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+    gap: 35px;
+    background-color: black;
+    color: white;
+}
+
+.foot{
+    text-decoration: none;
+    color: white;
+    opacity: 90%;
+}
+
+.foot:hover{
+    text-decoration: underline;
+}
+
+.opc{
+    opacity: 50%;
+}
+
+
+#layer2{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#layer_2_button{
+ display: flex;
+ font-size: 20px;
+background-color: transparent;
+border: none;
+}
+
+
+
+#layer3,#layer4,#layer5{
+    background-color: white;
+
+}
+
+#layer3_button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+#layer3_image{
+    height: 300px;
+}
+
+
+#Txt_1{
+position: absolute;
+left: 300px;
+top: 150px;
+font-size: 30px;
+background-color: transparent;
+border: none;
+text-align: left;
+}
+
+#Txt_1:hover{
+    #head1{
+        color: blue;
+    }
+}
+
+
+
+#Txt_Price_1{
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    font-size: 28px;
+}
+
+
+
+#a,#a1,#a2{
+    text-decoration: none;
+    color: black;
+}
+
+#head1,#head2,#head3{
+    font-size: 30px;
+}
+
+
+#layer4_button{
+    background-color: transparent;
+    border: none;
+}
+
+
+#Txt_2{
+    position: absolute;
+    left: 300px;
+    top: 500px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    }
+    
+    #Txt_2:hover{
+        #head2{
+            color: blue;
+        }
+    }
+    
+    
+    
+    #Txt_Price_2{
+        position: absolute;
+        right: 20px;
+        top: 500px;
+        font-size: 28px;
+    }
+    
+    
+#layer5_button{
+    background-color: transparent;
+    border: none;
+}
+
+
+#Txt_3{
+    position: absolute;
+    left: 300px;
+    top: 800px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    }
+    
+    #Txt_3:hover{
+        #head3{
+            color: blue;
+        }
+    }
+    
+    
+    
+    #Txt_Price_3{
+        position: absolute;
+        right: 20px;
+        top: 800px;
+        font-size: 28px;
+    }
+    
+    
+
+
